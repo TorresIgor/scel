@@ -24,6 +24,7 @@ public class AlunoController {
 	@Autowired
 	private AlunoRepository repository;
 
+	
 	@GetMapping("/consulta")
 	public ModelAndView listar() {
 		ModelAndView modelAndView = new ModelAndView("ConsultarAluno");
